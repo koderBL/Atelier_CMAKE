@@ -31,9 +31,6 @@ int main(int argc, char *argv[]){
 	// 	r = _carre(atof(a));
 	// 	printf("%lf",r);
 	// }
-	else {printf("Erreur de parametres");}
-	}
-
 	else {
 		char* op = argv[1];
 		char* a = argv[2];
@@ -41,7 +38,6 @@ int main(int argc, char *argv[]){
 		r = _carre(atof(a));
 		printf("%lf",r);
 	}
-
 	else {printf("Erreur de parametres");}
 	return 0;
 }
