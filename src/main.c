@@ -10,6 +10,7 @@ int main(int argc, char *argv[]){
 	char* a = argv[2];
 	char* b = argv[3];
 	double r = 0;
+	}
 
 	if (strcmp(op, "add") == 0) {
 		r = _add(atof(a), atof(b));
@@ -32,15 +33,19 @@ int main(int argc, char *argv[]){
 	// 	printf("%lf",r);
 	// }
 	
-	else {
+	else 
+	{
 		if (strcmp(op, "carre") == 0)
 		{
-		r = _carre(atof(a));
-		printf("%lf",r);
+			r = _carre(atof(a));
+			printf("%lf",r);
 		}
+
 		else
-			{printf("Erreur de parametres");}
-		}
+			{
+				printf("Erreur de parametres");
+			}
+	}
 
 	return 0;
 }
