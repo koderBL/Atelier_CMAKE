@@ -30,8 +30,7 @@ int main(int argc, char *argv[]){
 		}
 		
 	
-	
-	else {
+	}else {
 		if (strcmp(op, "carre") == 0)
 		{
 			r = _carre(atof(a));
@@ -43,7 +42,7 @@ int main(int argc, char *argv[]){
 				printf("Erreur de parametres");
 			}
 	}
-	}
+	
 
 	return 0;
 }
