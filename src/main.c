@@ -31,14 +31,17 @@ int main(int argc, char *argv[]){
 	// 	r = _carre(atof(a));
 	// 	printf("%lf",r);
 	// }
+	
 	else {
-		char* op = argv[1];
-		char* a = argv[2];
-	    double r = 0;
+		if (strcmp(op, "carre") == 0)
+		{
 		r = _carre(atof(a));
 		printf("%lf",r);
-	}
-	else {printf("Erreur de parametres");}
+		}
+		else
+			{printf("Erreur de parametres");}
+		}
+
 	return 0;
 }
 
